@@ -16,7 +16,7 @@ def main():
     DATA_DIR = CURRENT_DIR.parent / "data"
 
     RESULT_ROOT_DIR = DATA_DIR / "result"
-    RAW_ROOT_DIR = DATA_DIR / "raw"
+    RAW_ROOT_DIR = DATA_DIR
     CSV_PATH = DATA_DIR / "ground_truth" / "S1_GroundTruth_Projected.csv"
     
     OUTPUT_DIR = DATA_DIR / "result" / "validation"
