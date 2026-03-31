@@ -1,0 +1,5 @@
+# MODIS/MYDIS Band 2 云掩膜标识值
+CLOUD_VALUES = [200, 201, 211, 250, 254]
+
+# 无效/陆地填充值
+NODATA_VALUE = 255
