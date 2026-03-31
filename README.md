@@ -24,8 +24,8 @@
 
 代码库采用了“主程序 + `core/` 核心工具箱”的结构，分为四大执行模块。所有数据流转均在 `data/` 目录中自动闭环。
 
-```text
-baikal-ice-phenology/
+
+MODIS-Cloud-Removal-for-Ice-Phenology-Extration/
 ├── Cloud Removal/                 # [Step 1] 时空去云与影像重构模块
 ├── Phenology Extra tion/          # [Step 2] 宏观时间序列物候提取模块
 ├── Phenology Distribution Mapping/# [Step 3] 像素级空间物候制图模块
@@ -92,3 +92,4 @@ python accuracy_assessment.py
 
 🤝 贡献与反馈
 如果你在复现过程中遇到任何路径解析或环境配置的问题，欢迎提交 Issue。如果你觉得这个项目对你的遥感/地学研究有启发，不妨点个 ⭐️ Star！
+```text
