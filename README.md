@@ -23,7 +23,7 @@
 
 ## 🚀 处理流程
 - **Step 0: 准备原始数据**
-进入 data/2024/ (或其他年份文件夹)，阅读里面的 readme.txt。
+进入 data/2024/ (或其他年份文件夹)，阅读里面的 readme.md。
 使用提供的 GEE 脚本下载对应年份的 MOD10A1 和 MYD10A1 影像，并直接放在该年份文件夹下。
 确保 data/range/ 下有贝加尔湖的 Shapefile 掩膜文件。
 
@@ -94,10 +94,10 @@
 │
 └── 📂 data/                          # 数据集与脚本存储
     ├── 📂 2024/                      # 样例年度(2024)数据与获取脚本
-    │   ├── MOD10A1.js                # GEE平台获取 Terra MODIS 数据脚本
-    │   └── MYD10A1.js                # GEE平台获取 Aqua MODIS 数据脚本
+    │   ├── MOD10A1.js                # GEE平台获取 Terra MODIS 数据的JavaScript脚本
+    │   └── MYD10A1.js                # GEE平台获取 Aqua MODIS 数据的JavaScript脚本
     ├── 📂 ground_truth/              # Sentinel-1 地面验证数据集
-    │   ├── GEE_Sentinel1_Sampling.js # GEE平台 Sentinel-1 采样与导出脚本
+    │   ├── GEE_Sentinel1_Sampling.js # GEE平台 Sentinel-1 采样与导出的JavaScript脚本
     │   ├── S1_GroundTruth_Projected.csv # 投影后的 Sentinel-1 真值采样点数据
     │   └── 📂 raw_exports/           # 存放GEE原始导出的csv/shp结果
     └── 📂 range/                     # 空间范围与矢量边界
